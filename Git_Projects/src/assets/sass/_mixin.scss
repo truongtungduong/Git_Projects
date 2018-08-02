@@ -1,0 +1,6 @@
+@import "vars";
+@mixin breakpointsp(){
+	@media (max-width: $breakpoint){
+		@content ;
+	}
+}

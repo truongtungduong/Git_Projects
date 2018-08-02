@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import "vars";	// 変数 Variable
+@import "mixin";	// 変数 Variable
+
+
+//Code index.html
+.p-index__1{
+	margin-top: 85px;
+	@include breakpointsp{
+		margin-top: 20px;
+	}
+}
+
+// Code message.html
+.p-message__1{
+	margin-top: 92px;
+	@include breakpointsp{
+		margin-top: 35px;
+	}
+}
+
+// Code gallery.html
+.p-gallery__1{
+	padding: 74px 0 92px;
+	@include breakpointsp{
+		padding: 35px 0 40px;
+	}
+}
+
+.p-gallery__2{
+	padding: 104px 0 110px;
+	background-color: #F1F3F4;
+	margin-bottom: 62px;
+	@include breakpointsp{
+		padding: 40px 0 40px;
+		margin-bottom: 33px;
+	}
+}

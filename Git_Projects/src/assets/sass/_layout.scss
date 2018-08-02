@@ -1,0 +1,26 @@
+.l-content{
+	width: 100%;
+	height: auto;
+	min-width: 960px;
+	@include breakpointsp{
+		min-width: auto;
+	}
+}
+
+.l-content__inner{
+	width: 960px;
+	margin: 0 auto;
+	@include breakpointsp{
+		width: 100%;
+		padding: 0 25px;
+	}
+}
+
+.l-content__inner2{
+	width: 960px;
+	margin: 0 auto;
+	@include breakpointsp{
+		width: 100%;
+		padding: 0 10px;
+	}
+}

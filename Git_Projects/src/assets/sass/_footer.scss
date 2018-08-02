@@ -1,0 +1,69 @@
+.c-footer__inner{
+	border-top: 1px solid #231F20;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 38px 0;
+	@include breakpointsp{
+		padding: 20px 0;
+	}
+}
+
+.c-social2{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 12px;
+	.c-social__facebook{
+		margin-left: 12px;
+	}
+	@include breakpointsp{
+		margin-bottom: 15px;
+		img{
+			width: 20px;
+			height: 20px;
+		}
+		.c-social__facebook{
+			margin-left: 6px;
+		}
+	}	
+	
+}
+
+.c-language{
+	margin-bottom: 25px;
+	display: flex;
+	a{
+		font-size: 1.6rem;
+		color: #231F20;
+	}
+	a:active{
+		color: #231F20;
+	}
+	.c-space{
+		margin: 0 6px;
+	}
+	@include breakpointsp{
+		margin-bottom: 18px;
+		a{
+			font-size: 1.1rem;
+		}
+		.c-space{			
+			margin: 0;
+			font-size: 1.1rem;
+		}
+	}
+}
+
+.c-copyright{
+	p{
+		font-size: 1.1rem;
+		letter-spacing: 0.5px;
+		text-transform: uppercase;
+	}
+	@include breakpointsp{
+		p{
+			font-size: 0.7rem;
+			letter-spacing: 0;
+		}
+	}
+}
